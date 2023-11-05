@@ -1,4 +1,6 @@
 import { Component,OnInit } from '@angular/core';
+import {Recipe} from "../../../shared/models/recipe";
+import {HttpDataService} from "../../../shared/services/fastfood.service";
 
 @Component({
   selector: 'app-recetas',
@@ -7,38 +9,18 @@ import { Component,OnInit } from '@angular/core';
 })
 export class RecetasComponent implements OnInit{
 
-    data: any = [
-        {
-            id: 1,
-            title: "Receta 1",
-            description: "Descripcion de la receta 1",
-            image: "https://www.cocinavital.mx/wp-content/themes/cocinavital2019/images/404.gif",
-        },
-        {
-            id: 2,
-            title: "Receta 2",
-            description: "Descripcion de la receta 2",
-            image: "https://www.cocinavital.mx/wp-content/themes/cocinavital2019/images/404.gif",
-        },
-        {
-            id: 3,
-            title: "Receta 3",
-            description: "Descripcion de la receta 3",
-            image: "https://www.cocinavital.mx/wp-content/themes/cocinavital2019/images/404.gif",
+  data: any = [];
+  recipesList!: Recipe;
+  constructor(private httpDataService: HttpDataService) {
+  }
+  ngOnInit() {
+    this.getAllMovies();
+  }
 
-        },
-        {
-            id: 4,
-            title: "Receta 4",
-            description: "Descripcion de la receta 4",
-            image: "https://www.cocinavital.mx/wp-content/themes/cocinavital2019/images/404.gif",
-        }
+  getAllMovies() {
+    this.httpDataService.getList().subscribe((response: any) => {
+      this.data = response
+    });
+  }
 
-    ];
-    constructor() {
-    }
-
-    ngOnInit() {
-        console.log("recetas component on init");
-    }
 }

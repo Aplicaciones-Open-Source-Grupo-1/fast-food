@@ -5,12 +5,20 @@
       "name": "Papa a la huancaina",
       "duration": "125",
       "type": "Saludable",
-      "stars": "5"
+      "stars": "2",
+      "photo": "https://www.gourmet.cl/wp-content/uploads/2022/08/papas-a-la-huancaina-ajustada-web-570x458.jpg",
+      "ingredients": [
+        "Papa",
+        "Aji Amarillo",
+        "Perejil",
+        "Leche"
+      ],
+      "preparation": "Para la salsa huancaína:\n\nAbrir los ajíes a la mitad y retirar las pepas y venas.\nHervir los ajíes limpios por 10-15 min o hasta lograr pelarlos frotando la piel.\nReservar y descartar la piel.\nLicuar el ají, el queso y la leche en velocidad alta.\nAgregar el aceite a la licuadora en forma de hilo.\nAjustar al final la textura con un chorrito de leche evaporada de ser necesario.\nAjustar el nivel de sal.\n \n\nPara servir:\n\nPelar y cortar las papas en láminas gruesas.\nHervir en abundante agua con sal por 15-20 min o hasta que se puedan atravesar fácilmente con un cuchillo.\nRetirar y dejar que se enfríen por completo.\nPara cocinar los huevos, ponerlos en una olla a fuego medio con agua fría.\nUna vez que empiece a hervir el agua, tomar tiempo de 8 min.\nUna vez listos, darles un shock en agua con hielo y pelarlos.\nEn un plato arreglar la lechuga, luego la papa encima y cubrirlas con la salsa.\nTerminar decorando con el huevo partido en cuartos y las aceitunas."
     },
     {
       "id": 2,
       "name": "Lomo Saltado",
-      "photo": "",
+      "photo": "https://static.wixstatic.com/media/8fb78d_c77b22a3f89744a4bb1329a8d5c4e2a5~mv2.jpg/v1/fill/w_640,h_616,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8fb78d_c77b22a3f89744a4bb1329a8d5c4e2a5~mv2.jpg",
       "duration": "130",
       "type": "Carnes",
       "stars": "5"
@@ -18,7 +26,7 @@
     {
       "id": 3,
       "name": "Caldo de Gallina",
-      "photo": "nothing",
+      "photo": "https://cdn7.kiwilimon.com/brightcove/8610/640x640/8610.jpg.webp",
       "duration": "125",
       "type": "Saludable - Carne",
       "stars": "5"
@@ -28,35 +36,40 @@
       "duration": "150",
       "type": "Legumbres",
       "id": 4,
-      "stars": "5"
+      "stars": "3",
+      "photo": "https://content-cocina.lecturas.com/medio/2023/03/22/paso_a_paso_para_realizar_guiso_de_lentejas_con_arroz_y_verduras_resultado_final_957b3be1_1200x1200.jpg"
     },
     {
       "name": "Arroz con Pollo",
       "duration": "120",
       "type": "Carnes",
       "id": 5,
-      "stars": "5"
+      "stars": "5",
+      "photo": "https://www.foodandwine.com/thmb/ZiA6e4CQp_TkfhZNT0nrRZYKpxc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/arroz-con-pollo-xl-recipe2016_0-f430b143a47347f6944727b7f06ab91b.jpg"
     },
     {
       "name": "Locro de Zapallo",
       "duration": "170",
       "type": "Vegetariano",
       "id": 6,
-      "stars": "5"
+      "stars": "5",
+      "photo": "https://elcomercio.pe/resizer/gJ7THkVTkyQHJDPsvR1ffpoefIs=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/Q57HX2S7KBATFPJVK5EMAG2HPI.jpeg"
     },
     {
       "name": "Frejoles",
       "duration": "180",
       "type": "Legumbres",
       "id": 7,
-      "stars": "5"
+      "stars": "5",
+      "photo": "https://www.cocinavital.mx/wp-content/themes/cocinavital2019/images/404.gif"
     },
     {
       "name": "Arroz a la cubana",
       "duration": "120",
       "type": "Frituras - Carnes",
       "id": 8,
-      "stars": "5"
+      "stars": "5",
+      "photo": "https://www.cocinavital.mx/wp-content/themes/cocinavital2019/images/404.gif"
     }
   ]
 }

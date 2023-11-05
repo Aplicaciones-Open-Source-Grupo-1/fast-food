@@ -4,4 +4,7 @@ export interface Recipe {
   duration: any;
   type: any;
   stars: any ;
+  photo: any;
+  ingredients: any[];
+  preparation: any
 }

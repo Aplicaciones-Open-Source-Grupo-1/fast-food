@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { Recipe } from 'src/app/cocinero/models/recipe';
+import { Recipe } from 'src/app/shared/models/recipe';
 import {MatTableDataSource} from "@angular/material/table";
-import {HttpDataService} from "src/app/cocinero/services/fastfood.service";
+import {HttpDataService} from "src/app/shared/services/fastfood.service";
 import {MatSort} from "@angular/material/sort";
 import { NgForm } from "@angular/forms";
 import {MatPaginator} from "@angular/material/paginator";

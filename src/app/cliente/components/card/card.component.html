@@ -1,10 +1,10 @@
-<mat-card class="small-card" >
+<mat-card class="small-card"  (click)="onCardClick(bundle.id)" >
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>{{ bundle.title }}</mat-card-title>
-    <mat-card-subtitle>{{ bundle.title }}</mat-card-subtitle>
+    <mat-card-title>{{ bundle.name }}</mat-card-title>
+    <mat-card-subtitle>{{ bundle.type }}</mat-card-subtitle>
   </mat-card-header>
-  <img mat-card-image [src]="bundle.image" alt="Photo of {{ bundle.title }}">
+  <img mat-card-image [src]="bundle.photo" alt="Photo of {{ bundle.name }}">
   <mat-card-content>
     <p>
       {{ bundle.description }}

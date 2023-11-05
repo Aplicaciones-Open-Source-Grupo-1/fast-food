@@ -14,6 +14,7 @@ import { FooterComponent } from './cocinero/components/footer/footer.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { CardComponent } from './cliente/components/card/card.component';
 import { RecetasComponent } from './cliente/pages/recetas/recetas.component';
+import { RecetasDetailComponent } from './cliente/pages/recetas-detail/recetas-detail.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,8 @@ import { RecetasComponent } from './cliente/pages/recetas/recetas.component';
     FooterComponent,
     HeaderComponent,
     CardComponent,
-    RecetasComponent
+    RecetasComponent,
+    RecetasDetailComponent
   ],
   imports: [
     BrowserModule,
